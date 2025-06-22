@@ -4,6 +4,7 @@ on:
   schedule:
     # Runs daily at 07:30 UTC (adjust as needed)
     - cron: '35 16 * * *'
+  workflow_dispatch: 
 
 jobs:
   daily-commit:
